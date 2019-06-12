@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row rowItemInput">
+    <div class="col-6">
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Name:</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" [(ngModel)]="name">
+      </div>
+    </div>
+  </div>
+  <div class="row rowItemBtn">
+    <div class="col-12">
+      <button type="button" class="btn btn-outline-primary btn-lg" (click)="onSubmit()">Statistics</button>
+    </div>
+  </div>
+  <div class="row" *ngIf="nodeStatics">
+    <div class="col-12">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">Date</th>
+          <th scope="col">Event</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let item of nodeStatics" [class.extra]="!!item.title">
+          <td>{{ item.from.city +' '+ item.from.country +' '+ item.from.lat+ ' '+ item.from.lon}}</td>
+          <td>{{ item.to.city +' '+ item.to.country +' '+ item.to.lat+ ' '+ item.to.lon}}</td>
+          <td>{{item.date | date:'medium'}}</td>
+          <td> {{ item.title}}</td>
+<!--          <td>{{item.type}}</td>-->
+<!--          <td *ngIf="item.geolocation"> {{ item.geolocation.city +' '+ item.geolocation.country +' '+ item.geolocation.lat+ ' '+ item.geolocation.lon}}</td>-->
+
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

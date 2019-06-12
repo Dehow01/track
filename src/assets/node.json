@@ -1,0 +1,58 @@
+{
+  "nodelist":
+  [
+    {
+      "date": "2019-05-15T15:35:00.995+0000",
+      "type": "Tracking started",
+      "container_name": "myContainer",
+      "owner_name": "GlassContainer",
+      "geolocation": {
+        "city": "NY",
+        "country": "USA",
+        "lat": 40.78788,
+        "lon": -74.01431
+      }},
+    {
+      "date": "2019-05-15T15:37:30.051+0000",
+      "type": "Change carrier",
+      "carrier_name": "Gruzovichkoff",
+      "geolocation": {
+        "city": "NY",
+        "country": "USA",
+        "lat": 40.78788,
+        "lon": -74.01431
+      }},
+    {
+      "date": "2019-05-17T12:22:30.051+0000",
+      "type": "Change carrier",
+      "carrier_name": "OnTime",
+      "geolocation": {
+        "city": "LA",
+        "country": "USA",
+        "lat": 34.052235,
+        "lon":-118.243683
+      }},
+    {
+      "date": "2019-05-21T18:45:30.051+0000",
+      "type": "Change carrier",
+      "carrier_name": "MakeMeHappy",
+      "geolocation": {
+        "city": "Rio",
+        "country": "Brazil",
+        "lat": 22.90278,
+        "lon": 43.2075
+      }
+    },
+    {
+      "date": "2019-05-22T15:35:00.995+0000",
+      "type": "Tracking stopped",
+      "container_name": "myContainer",
+      "owner_name": "GlassContainer",
+      "geolocation": {
+        "city": "Rio",
+        "country": "Brazil",
+        "lat": 22.90278,
+        "lon": 43.2075
+      }
+    }
+   ]}

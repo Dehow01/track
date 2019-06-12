@@ -1,0 +1,55 @@
+{ "statList":
+[
+  {
+    "from": {
+      "city": "NY",
+      "country": "USA",
+      "lat": 40.78788,
+      "lon": -74.01431
+    },
+    "to": {
+      "city": "LA",
+      "country": "USA",
+      "lat": 32.78788,
+      "lon": -54.01431
+    },
+    "date": "2019-05-10T15:36:21.157+0000",
+    "type": "event",
+    "events": "StrongShaking",
+    "extraordinaryEvents": "yes",
+    "title":"Shaking"},
+  {
+    "from": {
+      "city": "LA",
+      "country": "USA",
+      "lat": 32.78788,
+      "lon": -54.01431
+    },
+    "to": {
+      "city": "Rio",
+      "country": "Brazil",
+      "lat": 21.78788,
+      "lon": -114.01431
+    },
+
+    "date": "2019-05-13T21:32:11.157+0000",
+    "extraordinaryEvents": "no"
+  },
+  {
+    "from": {
+      "city": "Rio",
+      "country": "Brazil",
+      "lat": 21.78788,
+      "lon": -114.01431
+    },
+    "to": {
+      "city": "Capetown",
+      "country": "Respublic of SA",
+      "lat": 55.78788,
+      "lon": -93.01431
+    },
+    "date": "2019-05-15T03:14:51.157+0000",
+    "extraordinaryEvents": "no"
+  }
+]
+}
